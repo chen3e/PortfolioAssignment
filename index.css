@@ -1,0 +1,141 @@
+*{
+    font-family: Arial;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 480px){
+    #header h4{
+        display: none;
+    }
+    .techbtn, .techbox, .mainbotcolumn >:nth-child(4){
+        display: none;
+    }
+    #maintop img{
+        display: none;
+    }
+    #maintop >:last-child{
+        display: block;
+        width: 100%;
+    }
+    #mainbot .mainbotcolumn{
+        display: block;
+        width: 100%;
+        background-color: 
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    #header h4{
+        display: block;
+        text-align: left;
+        top: -40px;
+        left: 2%;
+    }
+}
+@media only screen and (min-width: 1024px){
+
+}
+.columnheader{
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    vertical-align: top;
+    position: relative;
+    top: -20px;
+    overflow: hidden;
+}
+.techbtn{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+#header{
+    background: white;
+    height: 90px;
+    overflow: hidden;
+}
+    #header h2{
+        position: relative;
+        top: -10px;
+        left: 15px;
+        font-family: "Comic Sans MS";
+        font-size: 32px;
+    }
+    h4{
+        position: relative;
+        text-align: right;
+        right: 2%;
+        top: -60px;
+    }
+#main{
+    background-color: rgb(54, 5, 50);
+    padding: 2%;
+}
+    body >:nth-child(2) img{
+        display: inline-block;
+        margin-right: 2%;
+        width: 49%;
+    }
+    body >:nth-child(2) >:first-child >:last-child{
+        display: inline-block;
+        vertical-align: top;
+        width: 49%;
+        height: 310px;
+        background-color: lightgray;
+    }
+        #maintop p{
+            position: relative;
+            top: -30px;
+        }
+
+    #mainbot >:nth-child(2){
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+        .mainbotcolumn{
+            vertical-align: top;
+            display: inline-block;
+            width: 32%;
+            background-color: lightgray;
+            margin-top: 15px;
+        }
+            .mainbotcolumn >img{
+                width: 100%;
+                height: 30%;
+            }
+            .techbox{
+                height: 250px;
+                position: relative;
+            }
+                .techbox img{
+                    display: inline-block;
+                    position: relative;
+                    left: 5px;
+                    margin: 5px;
+                    width: 40px;
+                    height: 40px;
+                }
+#footer{
+    background-color: white;
+    text-align: center;
+}
+    #footer img{
+        display: inline-block;
+        position: relative;
+        height: 15px;
+        width: 15px;
+    }
+    #footer a{
+        display: inline-block;
+        position: relative;
+        font-style: italic;
+        top: -3px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
